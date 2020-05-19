@@ -1,6 +1,6 @@
 # BookStore
  MEAN stack web application. Supports CRUD functionalities.
- Live Demo - `https://bookstore-talkative-warthog-cb.cfapps.io/#/`
+ Live Demo - https://bookstore-talkative-warthog-cb.cfapps.io/#/
 
 ## Getting started  
 Prerequisites: Node.js and mongodb installed
