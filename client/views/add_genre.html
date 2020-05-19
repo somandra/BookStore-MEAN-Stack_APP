@@ -1,0 +1,16 @@
+<a class="btn btn-primary" href="#/genre">Go Back</a>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">Add Genre</h3>
+	</div>
+	<div class="panel-body">
+		<form ng-submit="addGenre()">
+
+			<div class="form-group">
+				<label>Name</label>
+				<input type="text" class="form-control" ng-model="genre.name" placeholder="Name of the Genre">
+			</div>
+			<button type="submit" class="btn btn-success">Submit</button>
+		</form>
+	</div>
+</div>

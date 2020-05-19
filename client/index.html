@@ -1,0 +1,30 @@
+<html ng-app="myApp">
+
+<head>
+	<title>BookStore</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div ng-view></div>
+			</div>
+		</div>
+	</div>
+	<!-- /.container -->
+	<script src="/bower_components/jquery/dist/jquery.js"></script>
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-route/angular-route.js"></script>
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/app.js"></script>
+	<script src="/controllers/books.js"></script>
+	<script src="/controllers/genres.js"></script>
+
+</body>
+
+</html>

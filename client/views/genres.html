@@ -1,0 +1,15 @@
+<a class="btn btn-primary" href="#/loggedin">Go Back</a>
+<a class="btn btn-primary pull-right" href="#/genre/add">Add Genre</a>
+<div class="panel panel-default" ng-init="getGenres()">
+	<div class="panel-heading">
+		<h3 class="panel-title">List of Genres</h3>
+	</div>
+	<ul class="list-group">
+		<div ng-repeat="genre in genres">
+			<li class="list-group-item">{{genre.name}}
+				<a class="btn btn-danger pull-right" ng-click="deleteGenre(genre._id)">Delete</a>
+				<a class="btn btn-primary pull-right" href="#/genre/edit/{{genre._id}}">Edit</a>
+			</li>
+		</div>
+	</ul>
+</div>
